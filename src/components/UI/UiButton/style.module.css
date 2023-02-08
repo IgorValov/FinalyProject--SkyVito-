@@ -1,0 +1,68 @@
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 278px;
+    height: 52px;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background-color: #009ee4;
+}
+
+.button:hover {
+    cursor: url(//yastatic.net/s3/web4static/_/v2/static/media/xmas-mitten_28.c8f51feb.svg) 4 2, pointer;
+    background-color: #0080c1;
+}
+
+.button:active {
+    background-color: #00486eff;
+}
+
+.button:disabled {
+    background-color: #d9d9d9;
+}
+
+.loadingSpinner {
+    border: 4px solid #00486eff;
+    border-top: 4px solid #e0e0e0;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    animation: spin 2s linear infinite;
+}
+
+.topButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding: 0 40px 0 40px;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #009ee4;
+}
+
+.topButton:hover {
+    cursor: url(//yastatic.net/s3/web4static/_/v2/static/media/xmas-mitten_28.c8f51feb.svg) 4 2, pointer;
+    background-color: #32adf3;
+}
+
+.topButton:active {
+    background-color: #00486eff;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

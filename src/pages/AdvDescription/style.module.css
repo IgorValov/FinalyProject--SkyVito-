@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.block {
+    display: flex;
+    gap: 60px;
+}
+
+.description {
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.infoBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.time,
+.city {
+    color: #5f5f5f;
+}
+
+.feedbacks {
+    color: #009ee4;
+    cursor: url(//yastatic.net/s3/web4static/_/v2/static/media/xmas-mitten_28.c8f51feb.svg) 4 2, pointer;
+}
+
+.feedbacks:hover {
+    text-decoration: underline;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.subtitle {
+    width: 1160px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 70px;
+}
+
+.productDescription {
+    width: 1160px;
+}

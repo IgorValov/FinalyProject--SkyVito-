@@ -1,0 +1,50 @@
+.adContainer {
+    width: 282px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: url(//yastatic.net/s3/web4static/_/v2/static/media/xmas-mitten_28.c8f51feb.svg) 4 2, pointer;
+    padding: 6px;
+}
+
+.adContainer:hover {
+    box-shadow: 0 0 11px 4px rgb(53, 189, 231);
+}
+
+.img {
+    width: 270px;
+    height: 270px;
+    margin-bottom: 10px;
+    background-size: contain;
+}
+
+.title {
+    height: 50px;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #009ee4;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #000;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 270px;
+    height: 46px;
+}
+
+.city,
+.time {
+    font-size: 16px;
+    line-height: 20px;
+    color: #5f5f5f;
+}

@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.buttonBlock {
+    display: flex;
+    gap: 10px;
+}
+
+.myInfo {
+    width: 400px;
+    display: flex;
+    gap: 12px;
+}
+
+.myIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #009ee4;
+    cursor: url(//yastatic.net/s3/web4static/_/v2/static/media/xmas-mitten_28.c8f51feb.svg) 4 2, pointer;
+}
+
+.name:hover {
+    text-decoration: underline;
+}
+
+.since {
+    line-height: 32px;
+}

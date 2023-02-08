@@ -1,0 +1,8 @@
+
+.adsContainer {
+    max-width: 1160px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 40px;
+}

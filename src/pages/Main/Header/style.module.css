@@ -1,0 +1,15 @@
+.headerField {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 150px;
+    width: 1440px;
+    height: 80px;
+    background-color: #009ee4;
+}
+
+.buttonBlock {
+    display: flex;
+    gap: 10px;
+}
+

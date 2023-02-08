@@ -1,0 +1,1 @@
+export const authSelector = (store) => store.login.isAuth || false

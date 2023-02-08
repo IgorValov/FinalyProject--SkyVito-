@@ -1,0 +1,63 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginModalBlock {
+    position: relative;
+    padding-bottom: 47px;
+    background: #fff;
+    width: 366px;
+    border-radius: 12px;
+}
+
+.inputBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.input {
+    width: 278px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #d0cece;
+    font-size: 24px;
+    line-height: 24px;
+    color: #313131;
+}
+
+.input::placeholder {
+    font-size: 18px;
+    line-height: 24px;
+    color: #d0cece;
+}
+
+.buttonBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.passwordError {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    color: #a21919;
+    font-weight: 700;
+}
+
+.loginError {
+    position: absolute;
+    left: 50px;
+    margin-top: 60px;
+    color: #a21919;
+    font-weight: 700;
+}

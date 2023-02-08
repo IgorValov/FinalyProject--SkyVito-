@@ -1,0 +1,13 @@
+.closeButton {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    right: 10px;
+    cursor: url(//yastatic.net/s3/web4static/_/v2/static/media/xmas-mitten_28.c8f51feb.svg) 4 2, pointer;
+    background: url("../../../../public/icons/close-modal-regular.svg") no-repeat center;
+}
+
+.closeButton:hover {
+    background: url("../../../../public/icons/close-modal-hover.svg") no-repeat center;
+}

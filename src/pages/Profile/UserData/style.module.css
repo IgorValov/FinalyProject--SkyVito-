@@ -1,0 +1,63 @@
+.wrapper {
+    width: 1160px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 70px;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+}
+
+.imageBlock {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+.photo {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+.changeButton {
+    display: none;
+}
+
+.uploadLabel {
+    cursor: url(//yastatic.net/s3/web4static/_/v2/static/media/xmas-mitten_28.c8f51feb.svg) 4 2, pointer;
+    color: #009ee4;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.uploadLabel:hover {
+    text-decoration: underline;
+}
+
+.inputsBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.firstAndLastNameBlock {
+    display: flex;
+    gap: 20px;
+}
+
+.emptySpace {
+    height: 30px;
+    color: transparent;
+}
